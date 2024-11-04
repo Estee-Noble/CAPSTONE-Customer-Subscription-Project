@@ -1,4 +1,4 @@
-ú# CAPSTONE-Customer-Subscription-Project
+CAPSTONE-Customer-Subscription-Project
 This is where i documented my second main LITA PROJECT on Customer Segmentation for a Subscription service.
 ---
 
@@ -92,5 +92,4 @@ Power BI: To create interactive dashboards and visualize customer segments, reve
 SQL: For creating views and aggregating data by various segments based on criteria such as subscription type, region, or revenue tier.
 
 4. Reporting and Presentation:
-
 Power BI: For generating interactive insights, Creating a detailed report or presentation to demonstrate findings, using data storytelling techniques to make insights actionable.
