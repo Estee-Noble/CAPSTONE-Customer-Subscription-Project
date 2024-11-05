@@ -90,27 +90,65 @@ EXPLORATION DATA ANALYSIS (WITH EXCEL)
 EXPLORATION DATA ANALYSIS (WITH SQL)
 
 #### Retrieve the total number of customers from each region.
+
+```SQL
 COUNT [CustomerID] AS TotalCustomers select * FROM LITA_CapstoneCustomerDATA
 GROUP By Region
+```
 
 
 #### Most popular subscription type by the number of customers.
+```SQL
 SELECT SubscriptionType, COUNT(CustomerID) AS TotalCustomers
+```
 
 #### Customers who canceled their subscription within 6 months.
 
+```SQL
+select * FROM CustomerData
+Group By SubscriptionType
+SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
+select* FROM CustomerData
+WHERE Canceled = 'TRUE'
+AND DATEDIFF(day, SubscriptionEnd, SubscriptionStart) <=180;
+```
 
 #### Calculate the average subscription duration for all customers.
 
+```SQL
+SELECT AVG(DATEDIFF(month, SubscriptionEnd, SubscriptionStart)) AS AvgSubscriptionDuration
+select * From CustomerData
+SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
+```
 
 #### Customers with subscriptions longer than 12 months.
+```SQL
+select * FROM CustomerData
+WHERE DATEDIFF(day, SubscriptionEnd, SubscriptionStart) >365;
+```
 
 #### Total revenue by subscription type.
-
+```SQL
+Select subscriptiontype, sum(revenue) AS TotalRevenue
+select * From CustomerData
+GROUP By SubscriptionType
+```
 
 #### Top 3 regions by subscription cancellations.
+```SQL
+Select TOP 3 region, count(subscriptionend) AS cancellations
+select * From CustomerData
+WHERE subscriptionend IS NOT NULL
+Group By region 
+```
 
 #### Find the total number of active and canceled subscriptions.
+```SQL
+SELECT Canceled, COUNT(CustomerID) AS TotalSubscriptions
+select * From CustomerData
+
+GROUP By Canceled
+```
 
 EXPLORATION DATA ANALYSIS (WITH POWER BI)
 
