@@ -5,8 +5,7 @@
 ## Project Title: Customer Segmentation for a Subscription Service.
 
 ### Project Overview: 
-#### This project involves analyzing customer data for a subscription service to identify 
-segments,trends and to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals, for interactive Power BI dashboard visualization.
+#### This project involves analyzing customer data for a subscription service to identify segments,trends and to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals, for interactive Power BI dashboard visualization.
 The dataset consists of information such as customer demographics, subscription history, usage patterns, and transaction records. This project highlights my analytical skills in data processing, clustering techniques, and visualization, providing a comprehensive look at how data-driven segmentation can drive business decisions.
 
 
@@ -83,9 +82,43 @@ ii.  Data analysis: Excel helps to provides powerful features like Pivot Tables 
 -  **Power BI**: 
 Visualization To create interactive dashboards and visualize customer segments, revenue trends, churn analysis, and more.
 
--  SQL
- Clustering and Segmentation:
-SQL: For creating aggregating data and sorting queries by various segments based on criteria such as subscription type, region, or revenue tier.
+-  **SQL**:
+i.  Clustering and Segmentation: For creating aggregating data and sorting queries by various segments based on criteria such as subscription type, region, or revenue tier.
 
-4. Reporting and Presentation:
-Power BI: For generating interactive insights, Creating a detailed report or presentation to demonstrate findings, using data storytelling techniques to make insights actionable.
+-  Power BI: 
+Reporting and Presentation: For generating interactive insights, Creating a detailed report or presentation to demonstrate findings, using data storytelling techniques to make insights actionable.
+
+
+EXPLORATION DATA ANALYSIS (WITH EXCEL)
+-  Pivot tables to analyze subscription patterns.
+
+
+
+-  Average subscription duration 
+
+
+
+
+-  Most popular subscription types.
+
+
+EXPLORATION DATA ANALYSIS (WITH SQL)
+
+#### -  Retrieve the total number of customers from each region.
+
+
+#### Most popular subscription type by the number of customers.
+
+#### Customers who canceled their subscription within 6 months.
+
+
+#### Calculate the average subscription duration for all customers.
+
+
+#### Customers with subscriptions longer than 12 months.
+
+#### Total revenue by subscription type.
+
+#### Top 3 regions by subscription cancellations.
+
+#### Find the total number of active and canceled subscriptions.
