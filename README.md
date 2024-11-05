@@ -59,6 +59,7 @@ Identify high-value customers or segments to prioritize for retention and upsell
 -  **Microsoft Excel** [Download Here]
 
 i.  Data Cleaning and Processing: Used for initial data cleaning, handling missing variables,filtering, and preparation.
+
 ii.  Data analysis: Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
 
@@ -69,7 +70,7 @@ Visualization To create interactive dashboards and visualize customer segments, 
 -  **SQL**:
 i.  Clustering and Segmentation: For creating aggregating data and sorting queries by various segments based on criteria such as subscription type, region, or revenue tier.
 
--  Power BI: 
+-  **Power BI**: 
 Reporting and Presentation: For generating interactive insights, Creating a detailed report or presentation to demonstrate findings, using data storytelling techniques to make insights actionable.
 
 
