@@ -105,10 +105,10 @@ SELECT SubscriptionType, COUNT(CustomerID) AS TotalCustomers
 #### Customers who canceled their subscription within 6 months.
 
 ```SQL
-select * FROM CustomerData
+select * FROM LITA_CapstoneCustomerDATA
 Group By SubscriptionType
 SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
-select* FROM CustomerData
+select* FROM LITA_CapstoneCustomerDATA
 WHERE Canceled = 'TRUE'
 AND DATEDIFF(day, SubscriptionEnd, SubscriptionStart) <=180;
 ```
@@ -117,27 +117,27 @@ AND DATEDIFF(day, SubscriptionEnd, SubscriptionStart) <=180;
 
 ```SQL
 SELECT AVG(DATEDIFF(month, SubscriptionEnd, SubscriptionStart)) AS AvgSubscriptionDuration
-select * From CustomerData
+select * From LITA_CapstoneCustomerDATA
 SELECT CustomerID, CustomerName, SubscriptionStart, SubscriptionEnd
 ```
 
 #### Customers with subscriptions longer than 12 months.
 ```SQL
-select * FROM CustomerData
+select * FROM LITA_CapstoneCustomerDATA
 WHERE DATEDIFF(day, SubscriptionEnd, SubscriptionStart) >365;
 ```
 
 #### Total revenue by subscription type.
 ```SQL
 Select subscriptiontype, sum(revenue) AS TotalRevenue
-select * From CustomerData
+select * From LITA_CapstoneCustomerDATA
 GROUP By SubscriptionType
 ```
 
 #### Top 3 regions by subscription cancellations.
 ```SQL
 Select TOP 3 region, count(subscriptionend) AS cancellations
-select * From CustomerData
+select * From LITA_CapstoneCustomerDATA
 WHERE subscriptionend IS NOT NULL
 Group By region 
 ```
@@ -145,7 +145,7 @@ Group By region
 #### Find the total number of active and canceled subscriptions.
 ```SQL
 SELECT Canceled, COUNT(CustomerID) AS TotalSubscriptions
-select * From CustomerData
+select * From LITA_CapstoneCustomerDATA
 
 GROUP By Canceled
 ```
