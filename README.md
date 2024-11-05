@@ -1,6 +1,8 @@
 # CAPSTONE-Customer-Subscription-Project
 #### This is where i documented my second main LITA PROJECT on Customer Segmentation for a Subscription service.
+
 ---
+
 
 ## Project Title: Customer Segmentation for a Subscription Service.
 
@@ -51,30 +53,12 @@ Identify high-value customers or segments to prioritize for retention and upsell
 
 
 
-### Data Collection Approach
-
-#### i. Data Cleaning:
-
-Handle any missing values, correct inconsistencies, and standardize formats (e.g., dates and categorical variables).
-
-Ensure that fields like Subscription Start Date and Subscription End Date are in a consistent date format.
-
-#### ii. Data Processing:
-
-Derive additional features such as Subscription Duration (difference between Subscription Start Date and Subscription End Date).
-
-
-#### iii. Data Aggregation:
-
-Group data by different categories, such as Region and Subscription Type, to support segmentation and revenue analysis.
-
-
 
 ### Tools for Analysis
 
 -  **Microsoft Excel** [Download Here]
 
-i.  Data Cleaning and Processing: Used for initial data cleaning, filtering, and preparation.
+i.  Data Cleaning and Processing: Used for initial data cleaning, handling missing variables,filtering, and preparation.
 ii.  Data analysis: Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
 
@@ -104,7 +88,7 @@ EXPLORATION DATA ANALYSIS (WITH EXCEL)
 
 EXPLORATION DATA ANALYSIS (WITH SQL)
 
-#### -  Retrieve the total number of customers from each region.
+#### Retrieve the total number of customers from each region.
 
 
 #### Most popular subscription type by the number of customers.
@@ -119,6 +103,19 @@ EXPLORATION DATA ANALYSIS (WITH SQL)
 
 #### Total revenue by subscription type.
 
+
 #### Top 3 regions by subscription cancellations.
 
 #### Find the total number of active and canceled subscriptions.
+
+EXPLORATION DATA ANALYSIS (WITH POWER BI)
+
+This dashboard visualizes: 
+
+-  Key customer segments
+ 
+
+-  Cancellations
+
+
+-  Subscription trends
