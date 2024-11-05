@@ -90,9 +90,12 @@ EXPLORATION DATA ANALYSIS (WITH EXCEL)
 EXPLORATION DATA ANALYSIS (WITH SQL)
 
 #### Retrieve the total number of customers from each region.
+COUNT [CustomerID] AS TotalCustomers select * FROM LITA_CapstoneCustomerDATA
+GROUP By Region
 
 
 #### Most popular subscription type by the number of customers.
+SELECT SubscriptionType, COUNT(CustomerID) AS TotalCustomers
 
 #### Customers who canceled their subscription within 6 months.
 
