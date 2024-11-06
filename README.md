@@ -167,4 +167,5 @@ This dashboard visualizes:
 
 
 
+
 ![Screenshot CustomerData BI](https://github.com/user-attachments/assets/afe17777-0d4a-45da-86d7-fa7084a5add3)
