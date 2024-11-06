@@ -8,7 +8,7 @@
 
 ### Project Overview: 
 #### This project involves analyzing customer data for a subscription service to identify segments,trends and to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals, for interactive Power BI dashboard visualization.
-The dataset consists of information such as customer demographics, subscription history, usage patterns, and transaction records. This project highlights my analytical skills in data processing, clustering techniques, and visualization, providing a comprehensive look at how data-driven segmentation can drive business decisions.
+#### The dataset consists of information such as customer demographics, subscription history, usage patterns, and transaction records. This project highlights my analytical skills in data processing, clustering techniques, and visualization, providing a comprehensive look at how data-driven segmentation can drive business decisions.
 
 
 ### Project Objectives: 
@@ -62,11 +62,6 @@ i.  Data Cleaning and Processing: Used for initial data cleaning, handling missi
 
 ii.  Data analysis: Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
-
- 
--  **Power BI**: 
-Visualization To create interactive dashboards and visualize customer segments, revenue trends, churn analysis, and more.
-
 -  **SQL**:
 i.  Clustering and Segmentation: For creating aggregating data and sorting queries by various segments based on criteria such as subscription type, region, or revenue tier.
 
@@ -74,20 +69,28 @@ i.  Clustering and Segmentation: For creating aggregating data and sorting queri
 Reporting and Presentation: For generating interactive insights, Creating a detailed report or presentation to demonstrate findings, using data storytelling techniques to make insights actionable.
 
 
-EXPLORATION DATA ANALYSIS (WITH EXCEL)
+### EXPLORATION DATA ANALYSIS (WITH EXCEL)
 -  Pivot tables to analyze subscription patterns.
+  ![Screenshot REVENUE by sub  date](https://github.com/user-attachments/assets/7287484d-fff7-498a-bd20-3dab5b3de012)
 
+
+![Screenshot revenue by canceled](https://github.com/user-attachments/assets/64c1ea8a-262a-470d-a381-d6055140c489)
+
+![Screenshot SUB  type by revenue](https://github.com/user-attachments/assets/dec9f875-f9d0-4fae-8313-2079c29fcb54)
+
+![Screenshot revenue by region](https://github.com/user-attachments/assets/0d2cf320-7304-4e21-bf6e-da88bf0c845d)
 
 
 -  Average subscription duration 
 
-
+![Screenshot AVG sub by sub date   revenue](https://github.com/user-attachments/assets/63198985-3c8c-4ce7-a1c9-5597adebff8c)
 
 
 -  Most popular subscription types.
 
+![Screenshot most popular sub by revenue](https://github.com/user-attachments/assets/f09c5df4-1c8b-4b9d-8c4e-ba82fc68779e)
 
-EXPLORATION DATA ANALYSIS (WITH SQL)
+### EXPLORATION DATA ANALYSIS (WITH SQL)
 
 #### Retrieve the total number of customers from each region.
 
