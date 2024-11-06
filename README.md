@@ -169,3 +169,65 @@ This dashboard visualizes:
 
 
 ![Screenshot CustomerData BI](https://github.com/user-attachments/assets/afe17777-0d4a-45da-86d7-fa7084a5add3)
+
+
+
+#### Exploration Details 
+
+#### 1. Key Metrics:
+
+-  Sum of Revenue: The total revenue generated, amounting to 149,819,686.
+
+-  Count of Cancellation (TRUE): The number of customers who canceled their subscriptions, totaling 33,750.
+
+-  Count of Cancellation (FALSE): The count of customers who retained their subscriptions, totaling 41,250.
+
+-  Count of Customer Data: The total number of customer records, which is 75,000.
+
+-  Average Revenue: The average revenue per customer, calculated to be 1,998.
+
+
+
+#### 2. Visualizations and Analysis:
+
+-  Count of CustomerID by Region: A pie chart shows the regional distribution of customers, with each region (East, North, South, West) holding an equal share of 25%.
+
+-  Count of Region by Canceled: Another pie chart shows the cancellation rates by region. It reveals that 57.14% of customers canceled, while 42.86% remained subscribed, indicating a high cancellation rate.
+
+-  Count of Revenue by Subscription Type: This pie chart shows revenue distribution by subscription type, with Premium and Standard each contributing 33.33% of total revenue, while Basic holds the remaining 33.33%.
+
+-  Subscription Type by Revenue and Canceled: A bar chart shows revenue by subscription type, split between canceled (True) and retained (False) customers. It indicates that a significant portion of revenue for each subscription type comes from customers who eventually canceled their subscriptions.
+
+
+
+
+#### Insights
+
+-  High Cancellation Rate: With over 33,750 cancellations (57.14%), the cancellation rate is relatively high, particularly across all regions equally, suggesting a common issue impacting customer retention.
+
+-  Subscription Types and Revenue: Revenue is evenly distributed across the Basic, Premium, and Standard subscription types. However, cancellations affect each subscription type, especially Basic subscriptions, which seem to have the highest cancellation rate, leading to lower retention.
+
+-  Customer Distribution by Region: Each region (East, North, South, West) has an equal share of customers, indicating a balanced market reach across all regions.
+
+-  Revenue Impact of Cancellations: The high rate of cancellation across all subscription types impacts revenue, with canceled customers accounting for a significant portion of lost revenue.
+
+
+#### Conclusion
+
+This dashboard highlights key challenges and opportunities for the subscription service business:
+
+-  Retention Issue: With a high cancellation rate, customer retention is a significant challenge that requires attention. Strategies to improve retention, such as enhancing customer experience, offering personalized services, or incentivizing long-term subscriptions, could help reduce the high cancellation rate.
+
+
+-  Subscription Type Impact: Cancellations are impacting each subscription type, but Basic subscriptions seem most vulnerable. Analyzing customer feedback or revisiting the features and pricing of the Basic subscription could help improve retention for this category.
+
+
+-  Revenue Stability Across Regions: The equal distribution of customers across regions suggests that the business has a stable and balanced reach. However, efforts to retain customers in each region are essential to maintain steady revenue growth.
+
+
+-  Average Revenue Per Customer: With an average revenue per customer of 1,998, optimizing customer acquisition and retention can help improve revenue, particularly by focusing on customers who may upgrade from Basic to Premium subscriptions.
+
+
+
+Overall, this analysis suggests a need for a focused retention strategy, especially within the Basic subscription tier, to stabilize and grow revenue in the long term.
+
