@@ -214,7 +214,7 @@ This dashboard visualizes:
 
 #### Conclusion
 
-This dashboard highlights key challenges and opportunities for the subscription service business:
+The dashboard highlights key challenges and opportunities for the subscription service business:
 
 -  Retention Issue: With a high cancellation rate, customer retention is a significant challenge that requires attention. Strategies to improve retention, such as enhancing customer experience, offering personalized services, or incentivizing long-term subscriptions, could help reduce the high cancellation rate.
 
