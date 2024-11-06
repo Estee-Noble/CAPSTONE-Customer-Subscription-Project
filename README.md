@@ -174,7 +174,7 @@ This dashboard visualizes:
 
 #### Exploration Details 
 
-#### 1. Key Metrics:
+#### Key Metrics:
 
 -  Sum of Revenue: The total revenue generated, amounting to 149,819,686.
 
@@ -188,7 +188,7 @@ This dashboard visualizes:
 
 
 
-#### 2. Visualizations and Analysis:
+#### Visualizations and Analysis:
 
 -  Count of CustomerID by Region: A pie chart shows the regional distribution of customers, with each region (East, North, South, West) holding an equal share of 25%.
 
